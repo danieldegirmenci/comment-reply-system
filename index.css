@@ -6,7 +6,7 @@ background-color: #242526;
 .comment {
     position: relative;
     list-style-type: none;
-    background-color: gray;
+    background-color: #3A3B3C;
     width: fit-content;
     margin: 10px;
     padding: 5px;
@@ -128,7 +128,7 @@ left: 63%;
 
 .repliedComment{
     list-style-type:none;
-    background-color: gray;
+    background-color: #3A3B3C;
     width: fit-content;
     margin: 10px;
     padding: 5px;
