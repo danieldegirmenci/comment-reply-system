@@ -317,7 +317,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     }
 
-
+    replyButton.disabled = true;
+    secondReplyButton.disabled = true;
     nameInput.value = "";
     commentInput.value = "";
 
