@@ -247,7 +247,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 timeOfSecondReplyComment.setAttribute("class", "time");
                 timeOfSecondReplyComment.innerHTML = commentTime();
                 secondRepliedComment.appendChild(timeOfSecondReplyComment);
-    
+
 
 
 
@@ -290,38 +290,37 @@ document.addEventListener("DOMContentLoaded", function () {
                 };
                 nameInput.value = "";
                 commentInput.value = "";
-                gapCheck(addCommentButton);
-                gapCheck(replyButton);
-                gapCheck(secondReplyButton);
+                addCommentButton.disabled = true;
+                replyButton.disabled = true;
+
+                secondReplyButton.disabled = true;
             }
 
 
 
             nameInput.value = "";
             commentInput.value = "";
-            gapCheck(addCommentButton);
-            gapCheck(replyButton);
-            gapCheck(secondReplyButton);
+            addCommentButton.disabled = true;
+            replyButton.disabled = true;
+            secondReplyButton.disabled = true;
 
 
         }
 
 
 
-
+        addCommentButton.disabled = true;
+            replyButton.disabled = true;
+            secondReplyButton.disabled = true;
         nameInput.value = "";
         commentInput.value = "";
-        gapCheck(addCommentButton);
-        gapCheck(replyButton);
-        gapCheck(secondReplyButton);
+
     }
 
 
     nameInput.value = "";
     commentInput.value = "";
-    gapCheck(addCommentButton);
-    gapCheck(replyButton);
-    gapCheck(secondReplyButton);
+
 
 
 
